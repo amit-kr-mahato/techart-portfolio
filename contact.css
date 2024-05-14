@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.contact-first-part{
+   background-color: rgba(17, 31, 49, 0.8);
+   height: 400px;
+   
+}
+
+.text-contact {
+    text-align: center;
+    padding-top: 190px;
+
+}
+
+.text-contact h3{
+    color: orange;
+    font-size: 20px;
+}
+
+
+.text-contact h1{
+    color: white;
+    font-size: 45px;
+}
+
+/* <!-- second-part-contact --> */
+
+.second-part-contact{
+    height: 650px;
+    margin-top: 80px;
+}
+
+.second-contact-cointainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 330px;
+}
+
+
+.contact-detail p{
+    position: relative;
+}
+
+.contact-detail p::before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    height: 5px;
+    width: 200px;
+    z-index: 3;
+    background: #f6b619;
+}
+
+.contact-detail p::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    height: 5px;
+    left: 0;
+    right: 0;
+    background: #2c507c;
+}
+
+
+.contact-detail h1{
+    color:#2c507c;
+}
+
+.contact-detail p{
+    color: #999;
+}
+
+.INFO{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.INFO i{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #f6b619;
+    margin-right: 20px;
+    text-align: center;
+    width: 30px;
+}
+
+.how_can_we_help h1{
+   color:#2c507c;
+}
+
+.how_can_we_help p{
+    position: relative;
+    color: #999;
+}
+
+.how_can_we_help p::before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    height: 5px;
+    width: 200px;
+    z-index: 3;
+    background: #f6b619;
+}
+
+.how_can_we_help p::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    height: 5px;
+    left: 0;
+    right: 0;
+    background: #2c507c;
+}
+
+
+.form-fill{
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+
+}
+
+.colspan{
+    width: 90%;
+    padding: 15px;
+
+}
+
+.contact .form-control{
+
+    padding: 25px;
+    font-size: 13px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 10px;
+   
+}
+
+
+.form-control{
+    display: block;
+    width: 110%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    transition: .15s ease-in-out; 
+}
+
+.colspn-1{
+    padding: 15px;
+}
+
+.btn-1{
+    border-radius: 3px;
+    font-weight: 900;
+    margin-left: 17px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+}
+
+
+

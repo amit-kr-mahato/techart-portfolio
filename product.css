@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.product-container{
+    background-image: url(product-image/aboutbg.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color:rgba(0, 0, 0, 0.6);
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+
+.product-text h3{
+    padding-left: 120px;
+    padding-top: 120px;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.product-text span{
+    color: white;
+}
+
+.product-text h1{
+    /* padding-top: 120px; */
+    color: orange;
+    font-size: 46px;
+    padding-left: 120px;
+}
+
+.product-text p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-left: 120px;
+    width: 778px;
+    color: white;
+}
+
+/* <!-- second-part --> */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.second-container-product h1{
+    font-size: 35px;
+}
+
+.second-container-product{
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+.second-products-laptop{
+   padding-right: 210px;
+   padding-top: 80px;
+
+}
+
+.google-and-playstore{
+    padding-left: 40px;
+}
+
+.laptop-img{
+    mix-blend-mode: multiply;
+    height: 110px;
+    width: 390px;
+}
+
+.product-text strong{
+    font-weight: bolder;
+}
+
+
+.product-text-1 p{
+    width: 90%;
+    padding-left: 120px;
+    font-size: 16px;
+    line-height: 35px;
+    color: grey;
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+
+
+/* <!-- Third-part --> */
+
+
+.third-section-container{
+    margin-top: 80px;
+    border: 2px solid orange;
+}
+
+.third-nav-section{
+    gap: 210px;
+    padding: 30px;
+    background-color: #fbf7f7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-section{
+    padding-left: 40px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imagine-img{
+    width: 850px;
+    height: 450px;
+}
+
+.google-playstore{
+    padding-bottom: 70px;
+    padding-left: 160px;
+}
+
+.google-third{
+    height: 110px;
+    width: 390px;
+
+}
+
+.imagine-section{
+    padding-right: 180px;
+}
+
+.imagine-section h2{
+    padding-left: 110px;
+}

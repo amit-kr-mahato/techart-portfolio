@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.about-section{
+   background-image: url(about-images/aboutbg.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-color: rgba(0, 0, 0, 0.7);
+   background-blend-mode: darken;
+   display: flex;
+   justify-content: space-between;
+   height: 500px;
+   width: 1500px;
+}
+
+.text-area{
+    display: flex;
+    padding-top: 200px;
+    padding-left: 220px;
+}
+
+.text-area h1{
+    color: white;
+    font-size: 60px;
+}
+
+
+.text-area span{
+    color: orange;
+
+}
+
+.text-area p{
+    width: 600px;
+    font-size: 20px;
+    color: white;
+}
+
+.about-img{
+    height: 460px;
+    padding-left: 240px;
+    padding-bottom: 240px;
+}
+
+ /* second-about-section  */
+
+
+ .text-about-area-1{
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .text-about-area-2{
+    height: 700px;
+    padding-right: 40px;
+    padding-top: 200px;
+ }
+
+ .text-about-area-2 span{
+    font-size: 40px;
+    color: rgb(219, 146, 9);
+    padding: 10px;
+ }
+
+ 
+
+ .text-about-area-2 h5{
+    color: black;
+    font-size: 17px;
+    padding-top: 30px;
+    width: 480px;
+ }
+
+ .text-about-area-2 hr{
+  background-color: orange;
+  width: 100%;
+  height: 5px;
+ }
+
+ 
+
+ .text-about-area-2 p{
+    width: 430px;
+    font-size: 19px;
+    
+ }
+
+ .img-2{
+    height:200px;
+    width: 200px;
+ }
+
+ 
+ 
+ .cube-container {
+    padding-top: 200px;
+    padding-left: 30px;
+    width: 200px;
+    height: 200px;
+    perspective: 800px;
+    margin: 50px auto;
+  }
+  
+  .cube {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate 10s infinite linear;
+  }
+  
+  .face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    color: rgb(214, 21, 21);
+    font-size: 18px;
+    text-align: center;
+    line-height: 200px;
+    background: transparent;
+    opacity: 0.9;
+    border: 2px solid;
+    /* border-image: linear-gradient(to right, #ff6b6b, #355c7d, #557d35, #cfcf16, #a51f1f) 1;
+    box-shadow: 0 0 100px rgba(245, 8, 8, 0.8); */
+  }
+  
+  .front {
+    transform: translateZ(100px);
+  }
+  
+  .back {
+    transform: rotateY(180deg) translateZ(100px);
+  }
+  
+  .right {
+    transform: rotateY(90deg) translateZ(100px);
+  }
+  
+  .left {
+    transform: rotateY(-90deg) translateZ(100px);
+  }
+  
+  .top {
+    transform: rotateX(90deg) translateZ(100px);
+  }
+  
+  .bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+  }
+  
+  .cube-container:hover .cube {
+    animation-play-state:running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+  
+    100% {
+      transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+  }
+  
+  /* third-about-section */
+
+  .third-about-section{
+   background-image: url(about-images/aboutbg2.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-color: rgba(0, 0, 0, 0.9);
+   background-blend-mode: darken;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+  }
+  
+
+  .text-area-2{
+    padding-left: 210px;
+    padding-top: 150px;
+  }
+ .text-area-2 h1{
+     font-size: 50px;  
+     color:rgb(219, 146, 9) ;
+ }
+
+ .text-area-2 p{
+  width: 450px;
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+ }
+
+ .text-area-2 hr{
+  background-color: orange;
+  width: 100%;
+  height: 5px;
+ }
+
+ .image-area{
+  padding-right: 210px;
+  padding-top: 100px;
+ }
+
+
+ .about-22-img{
+  width: 350px;
+  height: 340px;
+  /* padding-right: 300px; */
+ }
+
+
+ .fourth-section{
+  width: 100%;
+  height: 400px;
+ }
+
+ .text-4 h1{
+  color: orange;
+  padding-left: 190px;
+  padding-top: 120px;
+ }
+
+ .text-4 hr{
+  background-color: orange;
+  margin-left: 190px;
+  width: 70%;
+  height: 5px;
+ } 
+
+ .text-4 p{
+  padding-left: 190px;
+  width: 1000px;
+  font-size: 17px;
+  font-weight: 800;
+ }

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+
+
+
+/* first-portfoilo-section  */
+
+.first-section-portfoilo{
+    height: 450px;
+    background-image: url(portfolio-img/blogbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: white;
+}
+
+
+.text-portfoilo{
+    padding-top: 180px;
+    padding-left: 110px;
+}
+
+.text-portfoilo h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.text-portfoilo h1{
+    font-weight: 1000;
+    font-size: 70px;
+    color: orange;
+}
+
+.text-portfoilo p{
+    width: 1300px;
+    
+}
+
+
+/* second-part-portfilo-section */
+
+
+ul{
+    list-style: none;
+    
+}
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.second-part-portfoilo ul {
+    /* margin-bottom: 2px; */
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-part-portfoilo ul li{
+    border-bottom: 45px solid transparent;
+}
+
+
+.second-part-portfoilo ul li:hover{
+
+    border-bottom: 3px solid orange;
+
+}
+
+
+.photo-grid{
+    display: grid;
+   grid-template-columns: 0px 0px 0px;
+   justify-content: space-between;
+  
+}
+
+.grid{
+    width: 500px;
+    height: 480px;
+}
