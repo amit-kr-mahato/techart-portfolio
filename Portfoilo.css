@@ -106,3 +106,17 @@ a{
     height:385px;
 }
 
+
+.grid-3{
+    object-fit: cover;
+    border-radius: 12px;
+    width:400px;
+    height:800px;
+}
+
+.grid-5{
+    object-fit: cover;
+    border-radius: 12px;
+    width:400px;
+    height:800px;
+}
