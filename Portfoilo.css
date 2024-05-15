@@ -81,15 +81,28 @@ a{
 
 }
 
+.image-cointainer-portfoilo{
+    width: 1100px;
+    height: 1000px;
+}
+
 
 .photo-grid{
-    display: grid;
+    
+   gap: 20px;
+   padding-top: 80px;
+   display: grid;
+   padding-right:160px;
+   padding-left: 120px;
    grid-template-columns: 0px 0px 0px;
    justify-content: space-between;
-  
+   
 }
 
 .grid{
-    width: 500px;
-    height: 480px;
+    object-fit: cover;
+    border-radius: 12px;
+    width:400px;
+    height:385px;
 }
+

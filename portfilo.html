@@ -32,29 +32,100 @@
     <div class="second-part-portfoilo">
       <div class="cointener-part">
         <ul>
-          <li><a href="#">WEBSITE</a></li>
-          <li><a href="#">SOCIAL MEDIA POST</a></li>
-          <li><a href="#">CREATIVE CAMPAIGNS</a></li>
-          <li><a href="#">GRAPHIC DESIGNS</a></li>
-          <li><a href="#">ECOMMERCE</a></li>
+          <li onclick="showHideImageGrid(1)"><a>WEBSITE</a></li>
+          <li onclick="showHideImageGrid(2)"><a>SOCIAL MEDIA POST</a></li>
+          <li onclick="showHideImageGrid(3)"><a>CREATIVE CAMPAIGNS</a></li>
+          <li onclick="showHideImageGrid(4)"><a>GRAPHIC DESIGNS</a></li>
+          <li onclick="showHideImageGrid(5)"><a>ECOMMERCE</a></li>
         </ul>
       </div>
       <hr />
 
       <div class="image-cointainer-portfoilo">
-        <div class="photo-grid">
-          <img class="grid" src="portfolio-img/ABS mockup.jpg" alt="" />
-          <img class="grid" src="portfolio-img/IIG mockup.jpg" alt="" />
-          <img
-            class="grid"
-            src="portfolio-img/Jaguar Capital mockup.jpg"
-            alt=""
-          />
-          <img class="grid" src="portfolio-img/Nassar mockup.jpg" alt="" />
-          <img class="grid" src="portfolio-img/SHTC-mockup.jpg" alt="" />
-          <img class="grid" src="portfolio-img/Riyaz-mockup.jpg" alt="" />
+        <div id="portfolio_grid_box_1">
+          <div class="photo-grid">
+            <img class="grid" src="portfolio-img/ABS mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/IIG mockup.jpg" alt="" />
+            <img
+              class="grid"
+              src="portfolio-img/Jaguar Capital mockup.jpg"
+              alt=""
+            />
+            <img class="grid" src="portfolio-img/Nassar mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/SHTC-mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/Riyaz-mockup.jpg" alt="" />
+          </div>
+        </div>
+        <div id="portfolio_grid_box_2" style="display: none">
+          <div class="photo-grid">
+            <img class="grid" src="portfolio-img/IIG mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/ABS mockup.jpg" alt="" />
+            <img
+              class="grid"
+              src="portfolio-img/Jaguar Capital mockup.jpg"
+              alt=""
+            />
+            <img class="grid" src="portfolio-img/Nassar mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/SHTC-mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/Riyaz-mockup.jpg" alt="" />
+          </div>
+        </div>
+        <div id="portfolio_grid_box_3" style="display: none">
+          <div class="photo-grid">
+            <img class="grid" src="portfolio-img/ABS mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/IIG mockup.jpg" alt="" />
+            <img
+              class="grid"
+              src="portfolio-img/Jaguar Capital mockup.jpg"
+              alt=""
+            />
+            <img class="grid" src="portfolio-img/SHTC-mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/Nassar mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/Riyaz-mockup.jpg" alt="" />
+          </div>
+        </div>
+        <div id="portfolio_grid_box_4" style="display: none">
+          <div class="photo-grid">
+            <img class="grid" src="portfolio-img/IIG mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/ABS mockup.jpg" alt="" />
+            <img
+              class="grid"
+              src="portfolio-img/Jaguar Capital mockup.jpg"
+              alt=""
+            />
+            <img class="grid" src="portfolio-img/Nassar mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/SHTC-mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/Riyaz-mockup.jpg" alt="" />
+          </div>
+        </div>
+        <div id="portfolio_grid_box_5" style="display: none">
+          <div class="photo-grid">
+            <img class="grid" src="portfolio-img/ABS mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/IIG mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/Riyaz-mockup.jpg" alt="" />
+            <img
+              class="grid"
+              src="portfolio-img/Jaguar Capital mockup.jpg"
+              alt=""
+            />
+            <img class="grid" src="portfolio-img/Nassar mockup.jpg" alt="" />
+            <img class="grid" src="portfolio-img/SHTC-mockup.jpg" alt="" />
+          </div>
         </div>
       </div>
     </div>
+
+    <script>
+      function showHideImageGrid(tabNumber) {
+        var allGridBoxes = document.querySelectorAll(
+          `[id^=portfolio_grid_box_]`
+        );
+        for (let i = 0; i < allGridBoxes.length; i++) {
+          allGridBoxes[i].style.display = "none";
+        }
+        var clickedId = "portfolio_grid_box_" + tabNumber;
+        document.getElementById(clickedId).style.display = "block";
+      }
+    </script>
   </body>
 </html>
