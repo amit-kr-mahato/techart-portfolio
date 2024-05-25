@@ -44,8 +44,14 @@
       <div class="image-cointainer-portfoilo">
         <div id="portfolio_grid_box_1">
           <div class="photo-grid">
-            <img class="grid" src="portfolio-img/ABS mockup.jpg" alt="" />
-            <img class="grid" src="portfolio-img/IIG mockup.jpg" alt="" />
+            <div class="grid">
+              <img src="portfolio-img/ABS mockup.jpg" alt="" />
+              <div class="overlay">write you all content</div>
+            </div>
+            <div class="grid">
+              <img src="portfolio-img/IIG mockup.jpg" alt="" />
+              <div class="overlay">write you all content</div>
+            </div>
             <img
               class="grid"
               src="portfolio-img/Jaguar Capital mockup.jpg"
@@ -148,6 +154,21 @@
         var clickedId = "portfolio_grid_box_" + tabNumber;
         document.getElementById(clickedId).style.display = "block";
       }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const grids = document.querySelectorAll(".grid");
+        grids.forEach(function (grid) {
+          grid.addEventListener("mouseenter", function () {
+            const overlay = this.querySelector(".overlay");
+            overlay.style.display = "block";
+          });
+
+          grid.addEventListener("mouseleave", function () {
+            const overlay = this.querySelector(".overlay");
+            overlay.style.display = "none";
+          });
+        });
+      });
     </script>
   </body>
 </html>
