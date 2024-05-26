@@ -137,4 +137,21 @@ a{
     
 }
 
+.font-aswome{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    gap: 130px;
+    top: 80%
+
+  
+}
+
+.font-aswome-1 .font-awsome-2{
+    position: absolute;
+    
+}
+
+
+
 
