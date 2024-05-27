@@ -131,10 +131,24 @@ a{
 }
 .overlay{
     position: absolute; top: 0%; height: 100%; width: 100%;
-    background: gray;
-    opacity: 0.4;
+    background: rgb(103, 103, 240);
+    opacity: 0.5;
     display: none;
+   
+
     
+}
+
+.overlay h1{
+    background-color: rgb(225, 150, 11); !important
+    opacity: 20;
+    width: 100%;
+    height: 30%;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: white;
 }
 
 .font-aswome{
@@ -142,7 +156,7 @@ a{
     justify-content: space-around;
     position: relative;
     gap: 130px;
-    top: 80%
+    top: 50%
 
   
 }
@@ -150,6 +164,19 @@ a{
 .font-aswome-1 .font-awsome-2{
     position: absolute;
     
+}
+
+.font-aswome-1 i{
+    font-size: 30px;
+    color: rgb(249, 178, 47);
+   
+}
+
+
+.font-awsome-2 i{
+    font-size: 30px;
+    color: rgb(249, 178, 47);
+   
 }
 
 
