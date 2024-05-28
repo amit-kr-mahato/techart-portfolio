@@ -24,33 +24,35 @@
    width: 1500px;
 }
 
-.text-area{
+.text-area-about{
     display: flex;
     padding-top: 200px;
     padding-left: 220px;
 }
 
-.text-area h1{
+.text-area-about h1{
     color: white;
     font-size: 60px;
 }
 
 
-.text-area span{
+.text-area-about span{
     color: orange;
 
 }
 
-.text-area p{
+.text-area-about p{
     width: 600px;
     font-size: 20px;
     color: white;
 }
 
 .about-img{
-    height: 460px;
-    padding-left: 240px;
-    padding-bottom: 240px;
+    width: 500px;
+    height: 750px;
+    padding-left: 200px;
+    padding-bottom: 500px;
+   
 }
 
  /* second-about-section  */
@@ -247,4 +249,9 @@
   width: 1000px;
   font-size: 17px;
   font-weight: 800;
+ }
+
+ .text-about-area-2 i{
+   color: orange;
+   font-size: 32px;
  }

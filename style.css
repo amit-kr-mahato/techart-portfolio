@@ -70,8 +70,8 @@ nav ul {
 
 nav ul li{
     transition: .3s ease-in-out;
-    color:white;
-    background-color:rgb(65, 62, 62);
+    color:black;
+    background-color:rgb(247, 241, 241);
     padding:6px;
     border-radius: 40px;
     font-size: 16px;
@@ -80,8 +80,10 @@ nav ul li{
 
 
  nav ul li:hover{
-    border-bottom: 3px solid red transparent;
-    background:rgb(186, 150, 150) ;
+    border-bottom: 3px solid rgb(202, 198, 198) transparent;
+    background:black ;
+    color: #fff;
+    transition-duration: 5ms;
     
  }
 
@@ -199,18 +201,21 @@ aside{
   display: flex;
   background-image: url(images/introbg.png);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
-  background-blend-mode:;
+  background-color: #f8f9fa;
+  background-blend-mode:darken;
   justify-content: space-between;
   gap: 40px;
-  padding-top: 150px;
-  object-position: center;
+  padding-top: 130px;
+  background-size:contain;
 
 }
 
 
 .img_1{
-  padding-left: 300px;
+  padding-left: 260px;
+  mix-blend-mode: multiply;
 
 }
 
@@ -220,7 +225,7 @@ aside{
 }
 
 .text-section {
-  margin-top: 200px;
+  margin-top: 150px;
   
 }
 
@@ -235,8 +240,9 @@ aside{
 
 .text-section p{
   width: 600px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 17px;
+  margin-right: 70px;
 }
 
 .btn{
@@ -248,14 +254,25 @@ aside{
   margin-top: 20px;
 }
 
+.btn i{
+  font-size: 15px;
+  margin-right: 10px;
+}
+
 .btn:hover{
-  background-color: white;
-  color: black;
-  transition: .3s ease-in-out;
+  color: white;
+  background-color: black;
+  border-color: rgb(242, 235, 235);
 }
 
 .Third-section{
-  background-color: black;
+  background-image: url(images/expertisebg.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
   padding-left: 80px;
   height: 800px;
@@ -285,8 +302,8 @@ aside{
   justify-content:space-evenly;
   grid-template-columns: 0px 0px;
   padding-right: 490px;
-  padding-top: 180px;
-  gap: 100px;
+  padding-top: 100px;
+  gap: 90px;
  
 }
 
@@ -314,13 +331,40 @@ aside{
 
 }
 
+
+.text-section_1 {
+  position: relative;
+}
+
+.text-section_1 h1::before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 100px;
+  height: 5px;
+  width: 300px;
+  z-index: 3;
+  margin-left: 470px;
+  background: #f6b619;
+  
+}
+
+.text-section_1 h1::after{
+  margin-left: 550px;
+  margin-right: 550px;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  height: 5px;
+  left: 0;
+  right: 0;
+  background: #2c507c;
+}
+
 .text-section_1{
   text-align: center;
   color: rgb(83, 83, 181);
   margin-top: 100px;
-  text-decoration-color: #e8ad17;  
-  text-decoration-line: underline;
-  text-decoration-thickness: 15%;
   
 }
 
