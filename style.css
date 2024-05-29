@@ -385,10 +385,20 @@ aside{
 }
 
 .img-6:hover{
-  transition: .5s ease-out;
+  transform: scaleY(1.2);
+  transform: scaleZ(1.2);
+  transform: scaleX(1.2);
+   transition: all .6s ease-in-out;
+  /* animation: mymove 2s infinite; */
 
-  
 }
+
+
+  /* @keyframes mymove {
+    50% {transform: rotateZ(50deg );}
+  } */
+
+
 
 
 

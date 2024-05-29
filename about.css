@@ -163,6 +163,7 @@
   
   .cube-container:hover .cube {
     animation-play-state:running;
+    animation-duration: 12s;
   }
   
   @keyframes rotate {
