@@ -49,6 +49,19 @@ h3 span{
  
 }
 
+
+nav .fa-bars{
+  float: right;
+  padding-top: 58px;
+ padding-right: 20px;
+  font-size: 1.6rem;
+  color: black;
+  cursor: pointer;
+  display: none;
+}
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
