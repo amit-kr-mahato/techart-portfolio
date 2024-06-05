@@ -70,12 +70,14 @@
 
 .image-cointainer-portfoilo{
     width: 1100px;
-    height: 1000px;
+    height: 1300px;
 }
 
 
+
+
 .photo-grid{
-    
+   
    gap: 20px;
    padding-top: 80px;
    display: grid;
