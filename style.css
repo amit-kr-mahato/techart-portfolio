@@ -53,11 +53,48 @@ h3 span{
 nav .fa-bars{
   float: right;
   padding-top: 58px;
- padding-right: 20px;
+  padding-right: 20px;
   font-size: 1.6rem;
   color: black;
   cursor: pointer;
   display: none;
+}
+
+@media (max-width: 768px) {
+
+  .container{
+    width:100% ;
+  }
+  .container ul {
+     margin-left: 200px;
+      flex-direction: column;
+      width: 100%;
+      background: #333;
+  }
+
+  .container li {
+      text-align: center;
+      padding: 10px 0;
+      margin:0;
+      
+  }
+
+  .container li a {
+      font-size: 18px;
+  }
+  
+
+}
+
+@media (max-width: 764px){
+  aside{
+    width: 00%;
+  }
+  .section-gridBox{
+    width: 100%;
+    flex-direction: column;
+  }
+
 }
 
 
