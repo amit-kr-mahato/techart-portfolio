@@ -13,6 +13,44 @@
     ></script>
   </head>
   <body>
+    <div class="common-content" id="responsive-nav">
+      <i
+        style="
+          font-size: 44px;
+          padding-top: 10px;
+          padding-left: 600px;
+          background: #041938ed;
+          width: 100%;
+        "
+        class="fas"
+        onclick="hideNavBar()"
+        >&#xf061;</i
+      >
+      <ul>
+        <a href="index.html">
+          <li>HOME</li>
+        </a>
+        <a href="about.html">
+          <li>ABOUT</li>
+        </a>
+        <a href="service.html">
+          <li>SERVICES</li>
+        </a>
+        <a href="Expertise.html">
+          <li>EXPERTIES</li>
+        </a>
+        <a href="product.html">
+          <li>PRODUCTS</li>
+        </a>
+        <a href="portfilo.html">
+          <li>PORTFOLIO</li>
+        </a>
+        <a href="contact.html">
+          <li>CONTACT</li>
+        </a>
+      </ul>
+    </div>
+
     <nav class="container">
       <div class="logo">
         <img class="img" src="images/logo1.png" alt="techart" />
@@ -43,6 +81,7 @@
           <li>CONTACT</li>
         </a>
       </ul>
+      <div class="fas fa-bars" onclick="showNavBar()"></div>
     </nav>
     <!-- </header_end> -->
 
@@ -313,5 +352,16 @@
         <button class="last-butn">Get Back To Me</button><br />
       </div>
     </div>
+
+    <script>
+      function showNavBar() {
+        let navBar = document.getElementById("responsive-nav");
+        navBar.style.display = "block";
+      }
+      function hideNavBar() {
+        let navBar = document.getElementById("responsive-nav");
+        navBar.style.display = "none";
+      }
+    </script>
   </body>
 </html>

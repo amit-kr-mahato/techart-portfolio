@@ -10,6 +10,37 @@
     
 }
 
+.common-content ul{
+  padding-left: 374px;
+  padding-top: 100px;
+  
+}
+
+.common-content ul li{
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(249, 241, 241);
+}
+
+.common-content ul li:hover{
+  color: black;
+}
+
+
+.common-content{
+  width: 100%;
+  height: 500vh;
+   background: #011738ed; 
+   z-index: 1;
+   
+   position: absolute;
+   
+  
+}
+
+
+
 html .body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -60,17 +91,30 @@ nav .fa-bars{
   display: none;
 }
 
+#responsive-nav{
+  display: none;
+}
+@media (min-width: 768px) {
+  #responsive-nav{
+    display: none !important;
+  }
+}
 @media (max-width: 768px) {
 
   .container{
     width:100% ;
   }
   .container ul {
-     margin-left: 200px;
+      margin-left: 200px;
       flex-direction: column;
       width: 100%;
       background: #333;
+      display: none;
   }
+  nav .fa-bars{
+    display: block;
+  }
+  
 
   .container li {
       text-align: center;
@@ -88,7 +132,7 @@ nav .fa-bars{
 
 @media (max-width: 764px){
   aside{
-    width: 00%;
+    width: 100% !important;
   }
   .section-gridBox{
     width: 100%;

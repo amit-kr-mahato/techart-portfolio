@@ -257,3 +257,24 @@
    color: orange;
    font-size: 32px;
  }
+
+
+ nav .fa-bars{
+  float: right;
+  padding-top: 58px;
+  padding-right: 20px;
+  font-size: 1.6rem;
+  color: black;
+  cursor: pointer;
+  display: none;
+}
+
+
+ #responsive-nav{
+  display: none;
+}
+@media (min-width: 768px) {
+  #responsive-nav{
+    display: none !important;
+  }
+}
