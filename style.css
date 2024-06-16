@@ -11,14 +11,14 @@
 }
 
 .common-content ul{
-  padding-left: 374px;
+  padding-left: 490px;
   padding-top: 100px;
   
 }
 
 .common-content ul li{
   padding: 20px;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 800;
   color: rgb(249, 241, 241);
 }
@@ -29,12 +29,12 @@
 
 
 .common-content{
-  width: 100%;
-  height: 500vh;
-   background: #011738ed; 
+  width: 84%;
+  height: 300vh;
+   background: #011128ed; 
    z-index: 1;
-   
-   position: absolute;
+   position: fixed;
+
    
   
 }
@@ -86,7 +86,7 @@ nav .fa-bars{
   padding-top: 58px;
   padding-right: 20px;
   font-size: 1.6rem;
-  color: black;
+  color: orange;
   cursor: pointer;
   display: none;
 }
@@ -99,11 +99,30 @@ nav .fa-bars{
     display: none !important;
   }
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 500px) {
 
   .container{
-    width:124% ;
+    width: 248%;
+    padding-bottom: 100px;
+
   }
+
+
+
+  
+  .section-gridBox{
+    width: 190%;
+    flex-direction: column;
+  }
+
+  aside {
+    width: 153% !important;
+}
+
+.containt-body{
+  width: 153%;
+}
+
   .container ul {
       margin-left: 200px;
       flex-direction: column;
@@ -133,34 +152,16 @@ nav .fa-bars{
   }
   .section{
     display: flex;
-    flex-direction: column;
+    
   }
 
-  .section_1{
-    width: 124%;
-    height: 100%;
-  }
-
-  .section_2{
-    width: 124%;
-    height: 100%;
+  nav .fa-bars{
+    font-size: 45px;
   }
 
   
 
 }
-
-@media (max-width: 764px){
-  aside{
-    width: 100% !important;
-  }
-  .section-gridBox{
-    width: 124%;
-    flex-direction: column;
-  }
-
-}
-
 
 
 nav {

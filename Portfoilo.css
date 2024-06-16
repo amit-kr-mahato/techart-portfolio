@@ -53,7 +53,7 @@
 
 
 .second-part-portfoilo ul {
-    /* margin-bottom: 2px; */
+    margin-bottom: 2px;
     padding-top: 48px;
     display: flex;
     justify-content: space-evenly;

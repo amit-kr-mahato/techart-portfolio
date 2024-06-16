@@ -227,8 +227,9 @@ h3 span{
      padding-top: 80px;
    }
    .last-text-2 ul{
-    display: flex; !important
+    display: flex;
     flex-direction: column; 
+    
    }
    
    .last-text-2 h2{
