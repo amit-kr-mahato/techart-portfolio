@@ -11,6 +11,8 @@
 
 
 
+
+
 /* first-portfoilo-section  */
 
 .first-section-portfoilo{
@@ -69,23 +71,33 @@
 }
 
 .image-cointainer-portfoilo{
-    width: 1100px;
+    width: 1260px;
+    /* height: 1300px; */
+}
+
+
+
+#portfolio_grid_box_2{
     height: 1300px;
 }
 
 
+#portfolio_grid_box_3{
+    height: 500px;
+}
 
 
 .photo-grid{
    
    gap: 20px;
    padding-top: 80px;
+   margin-bottom: 40px;
    display: grid;
    padding-right:160px;
    padding-left: 120px;
    grid-template-columns: 0px 0px 0px;
    justify-content: space-between;
-   
+ 
 }
 
 .grid{
@@ -174,6 +186,14 @@
    
 }
 
+/* .last-text-2 ul  {
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
 nav .fa-bars{
     float: right;
     padding-top: 58px;
@@ -183,6 +203,8 @@ nav .fa-bars{
     cursor: pointer;
     display: none;
   }
+
+
   
 
 #responsive-nav{

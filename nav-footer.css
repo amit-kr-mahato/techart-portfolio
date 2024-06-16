@@ -226,6 +226,10 @@ h3 span{
    .last-text-2{
      padding-top: 80px;
    }
+   .last-text-2 ul{
+    display: flex; !important
+    flex-direction: column; 
+   }
    
    .last-text-2 h2{
      color: #f8ec0cee;
