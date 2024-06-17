@@ -11,25 +11,26 @@
 }
 
 .common-content ul{
-  padding-left: 490px;
+  padding-left: 427px;
   padding-top: 100px;
   
 }
 
 .common-content ul li{
-  padding: 20px;
+
+  padding: 31px;
   font-size: 40px;
   font-weight: 800;
   color: rgb(249, 241, 241);
 }
 
-.common-content ul li:hover{
+/* .common-content ul li:hover{
   color: black;
-}
+} */
 
 
 .common-content{
-  width: 84%;
+  width: 65%;
   height: 300vh;
    background: #011128ed; 
    z-index: 1;
@@ -102,16 +103,26 @@ nav .fa-bars{
 @media only screen and (max-width: 500px) {
 
   .container{
-    width: 248%;
+    width: 191%;
     padding-bottom: 100px;
 
   }
 
 
+  .img_1{
+    padding-right: 290px;
+  }
+
+
+  .img-2 {
+    width: 647px !important;
+    height: 586px !important;
+  }
+
 
   
   .section-gridBox{
-    width: 190%;
+    width: 126%;
     flex-direction: column;
   }
 
@@ -122,6 +133,65 @@ nav .fa-bars{
 .containt-body{
   width: 153%;
 }
+
+
+.hero_section{
+  display: flex;
+  align-items: center;
+  width: 191%;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.text-section{
+   /* margin-bottom: 150px; */
+   text-align: center;
+   font-size: 48px;
+   padding-top: 73px !important;
+   padding-bottom: 172px;
+
+}
+
+.text-section p{
+ width: 760px !important;
+ font-size: 28px !important;
+
+}
+
+.btn{
+  font-size: 40px !important;
+}
+
+.btn i{
+  font-size: 30px !important;
+}
+
+.Third-section{
+   width: 191%;
+   height: 1000px !important;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.text h1{
+  font-size: 88px !important;
+  margin-left:-319px !important ;
+ 
+}
+
+.parr{
+  width:380px !important;
+  font-size:20px;
+}
+
+
+
+
+
 
   .container ul {
       margin-left: 200px;
@@ -156,7 +226,7 @@ nav .fa-bars{
   }
 
   nav .fa-bars{
-    font-size: 45px;
+    font-size: 55px;
   }
 
   
@@ -339,7 +409,8 @@ aside{
 }
 
 .text-section {
-  margin-top: 150px;
+  padding-top: 60px;
+  text-align: center;
   
 }
 
