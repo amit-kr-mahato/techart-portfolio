@@ -174,19 +174,95 @@ nav .fa-bars{
 .text{
   display: flex;
   flex-direction: column;
+  padding-left: 0px !important;
 }
 
 
 .text h1{
   font-size: 88px !important;
-  margin-left:-319px !important ;
+  
+ 
  
 }
 
-/* .parr{
-  width:380px !important;
-  font-size:20px;
-} */
+.para{
+  width: 759px !important;
+  padding-top: 20px !important;
+  font-size: 33px;
+}
+
+
+.sectiON-fourth{
+  width: 191%;
+  height: 2850px ;
+}
+
+.text-section_1 h1::before {
+    content: "" !important;
+    position: absolute !important;
+    bottom: -10px !important;
+    left: -143px !important;
+    height: 7px !important;
+    z-index: 3 !important ;
+    margin-left: 470px !important;
+    background: #2c507c !important;
+     /* background: #f6b619 !important; */
+    
+}
+.text-section_1 h1::after {
+  margin-left: 550px !important;
+  margin-right: 550px !important;
+  content: "" !important;
+  position: absolute !important;
+  bottom: -10px !important;
+  height: 5px !important;
+  left: 0 !important;
+  right: 0 !important;
+  background: #f6b619 !important;
+  /* background: #2c507c !important; */
+}
+
+.item-2 {
+  display: flex !important;
+  flex-direction: column !important;
+  grid-template-columns: 0px !important;
+
+}
+   
+.image-section{
+  padding-left: 256px;
+
+}
+
+.image-section span {
+  font-size: 40px !important;
+  padding-top: 104px !important;
+  
+  font-weight: 900 !important;
+}
+
+
+.img-6 {
+  width: 417px !important;
+  height: 405px !important;
+  padding: 40px !important;
+}
+
+
+
+.text-section_1{
+  position: relative !important;
+}
+
+
+
+.text-section_1 h1 {
+  font-size: 48px !important;
+  text-align: center !important;
+
+}
+
+
 
 .grid-container{
   display: grid !important;
@@ -203,20 +279,24 @@ nav .fa-bars{
 
 
 .item span {
-  font-size: 25px;
+  font-size: 53px !important;
+  font-weight: 900;
   padding: 9px;
 
 }
 
+.item span p {
+  font-size: 26px !important;
+}
 
-
-  .container ul {
+.container ul {
       margin-left: 200px;
       flex-direction: column;
       width: 100%;
       background: #333;
       display: none;
   }
+
   nav .fa-bars{
     display: block;
   }
@@ -249,6 +329,7 @@ nav .fa-bars{
   
 
 }
+
 
 
 nav {
@@ -591,18 +672,9 @@ aside{
   transform: scaleZ(1.2);
   transform: scaleX(1.2);
    transition: all .6s ease-in-out;
-  /* animation: mymove 2s infinite; */
+  
 
 }
-
-
-  /* @keyframes mymove {
-    50% {transform: rotateZ(50deg );}
-  } */
-
-
-
-
 
 .img-6{
   width: 200px;
