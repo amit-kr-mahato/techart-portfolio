@@ -325,17 +325,23 @@ nav .fa-bars{
 .sixth-section{
     
      width: 191%;
-     height: 900px;
+     height: 900px !important;
 }
 .text-area h1{
    padding-left: 12px !important;
-   font-size: 20px !important;
+   font-size: 46px !important;
 }
 
-.container-5{
-  display: flex;
-  flex-direction: column;
+.container-5 {
+  padding-left: 80px !important;
+  display: flex !important;
+  padding-top: 64px !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
+
+
+
 
 
 .container ul {
@@ -798,7 +804,7 @@ aside{
    
 }
 
-.container-5{
+.container-50{
   padding-left: 120px;
   padding-top: 110px;
 }
