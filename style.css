@@ -381,7 +381,33 @@ nav .fa-bars{
     font-size: 55px;
   }
 
+
+  #check {
+    width: 86px !important;
+    height: 42px !important;
+}
+
+.container-50 span {
+  font-size: 40px !important;
+  padding-top: 300px !important;
+  font-weight: 500;
+
+}
+
+.fa-paper-plane {
+   font-size: 120px;
+  padding-left: 550px !important;
+  padding-bottom: 550px !important;
+   position: relative !important;
   
+}
+
+.seventh {
+  background-color: #052656 !important;
+  height: 200px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
 
 }
 
@@ -806,12 +832,12 @@ aside{
 
 .container-50{
   padding-left: 120px;
-  padding-top: 110px;
+  padding-top: 98px;
 }
 
 
 
-.container-5 span{
+.container-50 span{
   font-size: 25px;
   padding-top: 300px;
 }
