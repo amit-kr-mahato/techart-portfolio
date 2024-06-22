@@ -8,6 +8,7 @@
     list-style-type: none;
     text-decoration: none;
     
+    
 }
 
 .common-content ul{
@@ -45,6 +46,7 @@
 html .body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    width: 191%;
    
  }
 
@@ -102,6 +104,10 @@ nav .fa-bars{
 }
 @media only screen and (max-width: 500px) {
 
+  .body{
+    width: 191%;
+  }
+
   .container{
     width: 191%;
     padding-bottom: 100px;
@@ -144,7 +150,7 @@ nav .fa-bars{
 }
 
 .text-section{
-   /* margin-bottom: 150px; */
+   
    text-align: center;
    font-size: 48px;
    padding-top: 73px !important;
@@ -206,7 +212,7 @@ nav .fa-bars{
     z-index: 3 !important ;
     margin-left: 470px !important;
     background: #2c507c !important;
-     /* background: #f6b619 !important; */
+   
     
 }
 .text-section_1 h1::after {
@@ -219,7 +225,7 @@ nav .fa-bars{
   left: 0 !important;
   right: 0 !important;
   background: #f6b619 !important;
-  /* background: #2c507c !important; */
+ 
 }
 
 .item-2 {
@@ -395,19 +401,117 @@ nav .fa-bars{
 }
 
 .fa-paper-plane {
+  font-size: clamp(60px, 32vh, 300px) !important;
    font-size: 120px;
   padding-left: 550px !important;
-  padding-bottom: 550px !important;
+  /* padding-bottom: 550px !important; */
    position: relative !important;
   
 }
 
+.btn-1 {
+  display: none;
+
+}
+
 .seventh {
   background-color: #052656 !important;
-  height: 200px !important;
+  height: 554px !important;
+  width: 191%;
   display: flex !important;
-  justify-content: space-between !important;
+  flex-direction: column;
 }
+
+.sub-hero-1 {
+  font-weight: 400;
+  font-size: 30px !important;
+  padding-top: 70px !important;
+  padding-left: 33px !important;
+  
+}
+
+.sub-hero h1 {
+  
+  padding-left: 28px !important;
+  font-size: 74px !important;
+}
+
+.images-9 {
+  width: 202px !important;
+  height: 202px !important;
+}
+
+.last-section{
+  display: flex;
+  flex-direction: column;
+  padding-left: 110px;
+  width: 191%;
+  height: 1700px !important;
+}
+.last-logo{
+
+   padding-left: 146px !important;
+}
+
+.last-img {
+  width: 267px !important;
+  height: 269px !important;
+}
+
+.last-text-1 h2{
+  font-size: 36px !important;
+
+}
+
+.fa-facebook {
+  width: 121px !important;
+  height: 104px !important;
+  font-size: 46px;
+}
+
+.fa-instagram {
+  font-size: 46px;
+  width: 106px !important;
+  height: 106px !important;
+}
+
+.last-text-1 p{
+
+  font-size: 26px;
+  font-weight: 300; 
+}
+
+.last-text-2 p{
+
+  font-size: 26px;
+  font-weight: 300; 
+}
+
+.last-text-2 ul{
+  font-size: 27px !important;
+
+}
+
+.last-text-3 h2{
+  font-size: 36px !important;
+
+}
+
+#fname, #cnt {
+  width: 534px;
+  font-size: 24px;
+  padding: 20px !important;
+}
+
+.last-butn {
+  width: 534px !important;
+  padding: 26px !important;
+  font-size: 31px;
+  color: black !important;
+  background-color: rgb(247, 177, 46) !important;
+
+}
+
 
 }
 
@@ -882,7 +986,7 @@ color: #fff;
   justify-content: space-between;
 }
 
-#helmet{
+.sub-hero-1{
   color: #fff;
   font-size: 30px;
   padding-left: 250px;
