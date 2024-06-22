@@ -12,26 +12,23 @@
 }
 
 .common-content ul{
-  padding-left: 427px;
-  padding-top: 100px;
+  padding-left: 256px;
+  padding-top: 0px;
   
 }
 
 .common-content ul li{
 
-  padding: 31px;
+  padding: 24px;
   font-size: 40px;
   font-weight: 800;
   color: rgb(249, 241, 241);
 }
 
-/* .common-content ul li:hover{
-  color: black;
-} */
 
 
 .common-content{
-  width: 65%;
+  width: 81%;
   height: 300vh;
    background: #011128ed; 
    z-index: 1;
@@ -105,11 +102,14 @@ nav .fa-bars{
 @media only screen and (max-width: 500px) {
 
   .body{
-    width: 191%;
+    width: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .container{
-    width: 191%;
+    width: 145%;
     padding-bottom: 100px;
 
   }
@@ -121,14 +121,19 @@ nav .fa-bars{
 
 
   .img-2 {
-    width: 647px !important;
+    width: 484px !important;
     height: 586px !important;
   }
+
+  .fa-microchip {
+    font-size: 174px !important;
+  }
+
 
 
   
   .section-gridBox{
-    width: 126%;
+    width: 94%;
     flex-direction: column;
   }
 
@@ -143,29 +148,36 @@ nav .fa-bars{
 
 .hero_section{
   display: flex;
-  align-items: center;
-  width: 191%;
-  flex-direction: column;
-  gap: 4px;
+  background-image: url(images/introbg.png) !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-color: #f8f9fa !important;
+    background-blend-mode: darken !important;
+    align-items: center !important;
+    width: 144% !important;
+    flex-direction: column !important;
+    background-size: contain !important;
+    
 }
 
 .text-section{
    
    text-align: center;
-   font-size: 48px;
-   padding-top: 73px !important;
+   font-size: 23px;
+   padding-top: 0px !important;
    padding-bottom: 172px;
 
 }
 
-.text-section p{
- width: 760px !important;
- font-size: 28px !important;
-
+.text-section p {
+  width: 475px !important;
+  font-size: 23px !important;
+  margin-left: 60px;
 }
 
 .btn{
-  font-size: 40px !important;
+  font-size: 27px !important;
 }
 
 .btn i{
@@ -173,8 +185,8 @@ nav .fa-bars{
 }
 
 .Third-section{
-   width: 191%;
-   height: 1800px !important;
+   width: 143%;
+   height: 1508px !important;
 }
 
 .text{
@@ -185,21 +197,21 @@ nav .fa-bars{
 
 
 .text h1{
-  font-size: 88px !important;
+  font-size: 60px !important;
   
  
  
 }
 
-.para{
-  width: 759px !important;
-  padding-top: 20px !important;
-  font-size: 33px;
+.para {
+  width: 431px !important;
+  padding-top: 3px !important;
+  font-size: 22px;
 }
 
 
 .sectiON-fourth{
-  width: 191%;
+  width: 144%;
   height: 100% ;
 }
 
@@ -207,7 +219,7 @@ nav .fa-bars{
     content: "" !important;
     position: absolute !important;
     bottom: -10px !important;
-    left: -143px !important;
+    left: -256px !important;
     height: 7px !important;
     z-index: 3 !important ;
     margin-left: 470px !important;
@@ -236,23 +248,23 @@ nav .fa-bars{
 }
    
 .image-section{
-  padding-left: 256px;
+  padding-left: 200px;
   display: flex;
   flex-direction: column;
 
 }
 
 .image-section span {
-  font-size: 41px !important;
-  padding-top: 104px !important;
+  font-size: 27px !important;
+  padding-top: 0px !important;
   font-weight: 900 !important;
 }
 
 
 .img-6 {
-  width: 417px !important;
-  height: 405px !important;
-  padding: 40px !important;
+  width: 338px !important;
+  height: 293px !important;
+  padding: 56px !important;
 }
 
 
@@ -264,7 +276,7 @@ nav .fa-bars{
 
 
 .text-section_1 h1 {
-  font-size: 64px !important;
+  font-size: 48px !important;
   text-align: center !important;
 
 }
@@ -274,31 +286,31 @@ nav .fa-bars{
 .grid-container{
   display: grid !important;
   grid-template-columns: 0px !important;
- padding-right:683px !important;
+ padding-right:439px !important;
 }
 
 
 
 .gride-image {
-  width: 247px !important;
-  height: 199px !important;
+  width: 166px !important;
+  height: 128px !important;
 }
 
 
 .item span {
-  font-size: 53px !important;
-  font-weight: 900;
+  font-size: 36px !important;
+  font-weight: 500;
   padding: 9px;
 
 }
 
 .item span p {
-  font-size: 26px !important;
+  font-size: 24px !important;
 }
 
 
 .fifth{
-  width: 191%;
+  width: 144%;
   height: 1450px !important;
 
 }
@@ -324,13 +336,18 @@ nav .fa-bars{
 
 
 .img-5 {
-  width: 333px !important;
+  width: 293px !important;
   height: 240px !important;
+}
+
+.container-50 {
+  padding-left: 72px !important;
+  padding-top: 22px !important;
 }
 
 .sixth-section{
     
-     width: 191%;
+     width: 143%;
      height: 900px !important;
 }
 .text-area h1{
@@ -339,9 +356,9 @@ nav .fa-bars{
 }
 
 .container-5 {
-  padding-left: 80px !important;
+  padding-left: 0px !important;
   display: flex !important;
-  padding-top: 64px !important;
+  padding-top: 0px !important;
   display: flex !important;
   flex-direction: column !important;
 }
@@ -401,8 +418,9 @@ nav .fa-bars{
 }
 
 .fa-paper-plane {
-  font-size: clamp(60px, 32vh, 300px) !important;
+  font-size: clamp(60px, 26vh, 300px) !important;
    font-size: 120px;
+   margin-top: -231px;
   padding-left: 550px !important;
   /* padding-bottom: 550px !important; */
    position: relative !important;
@@ -410,14 +428,18 @@ nav .fa-bars{
 }
 
 .btn-1 {
-  display: none;
+  margin-left: 466px !important;
+  margin-top: 200px;
+  padding: 20px !important;
+  width: 30%;
+  font-size: 23px;
 
 }
 
 .seventh {
   background-color: #052656 !important;
   height: 554px !important;
-  width: 191%;
+  width: 143%;
   display: flex !important;
   flex-direction: column;
 }
@@ -445,7 +467,7 @@ nav .fa-bars{
   display: flex;
   flex-direction: column;
   padding-left: 110px;
-  width: 191%;
+  width: 143%;
   height: 1700px !important;
 }
 .last-logo{
@@ -936,7 +958,7 @@ aside{
 
 .container-50{
   padding-left: 120px;
-  padding-top: 98px;
+  padding-top: 46px;
 }
 
 
