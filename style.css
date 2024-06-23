@@ -12,15 +12,15 @@
 }
 
 .common-content ul{
-  padding-left: 256px;
+  padding-left: 207px;
   padding-top: 0px;
   
 }
 
 .common-content ul li{
 
-  padding: 24px;
-  font-size: 40px;
+  padding: 15px;
+  font-size: 31px;
   font-weight: 800;
   color: rgb(249, 241, 241);
 }
@@ -28,11 +28,11 @@
 
 
 .common-content{
-  width: 81%;
+  width: 75%;
   height: 300vh;
-   background: #011128ed; 
-   z-index: 1;
-   position: fixed;
+  background: #011128ed; 
+  z-index: 1;
+  position: fixed;
 
    
   
@@ -43,7 +43,6 @@
 html .body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    width: 191%;
    
  }
 
@@ -99,7 +98,7 @@ nav .fa-bars{
     display: none !important;
   }
 }
-@media only screen and (max-width: 500px) {
+@media (max-width: 600px) {
 
   .body{
     width: 0%;
@@ -108,15 +107,15 @@ nav .fa-bars{
     box-sizing: border-box;
   }
 
+  .h3 {
+    margin-right: 0px !important;
+  
+}
+
   .container{
-    width: 145%;
+    width: 100%;
     padding-bottom: 100px;
 
-  }
-
-
-  .img_1{
-    padding-right: 290px;
   }
 
 
@@ -133,16 +132,16 @@ nav .fa-bars{
 
   
   .section-gridBox{
-    width: 94%;
+    width: 100%;
     flex-direction: column;
   }
 
   aside {
-    width: 153% !important;
+    width: 100% !important;
 }
 
 .containt-body{
-  width: 153%;
+  width: 100%;
 }
 
 
@@ -155,7 +154,7 @@ nav .fa-bars{
     background-color: #f8f9fa !important;
     background-blend-mode: darken !important;
     align-items: center !important;
-    width: 144% !important;
+    width: 100% !important;
     flex-direction: column !important;
     background-size: contain !important;
     
@@ -185,7 +184,7 @@ nav .fa-bars{
 }
 
 .Third-section{
-   width: 143%;
+   width: 100%;
    height: 1508px !important;
 }
 
@@ -211,7 +210,7 @@ nav .fa-bars{
 
 
 .sectiON-fourth{
-  width: 144%;
+  width: 100%;
   height: 100% ;
 }
 
@@ -219,7 +218,7 @@ nav .fa-bars{
     content: "" !important;
     position: absolute !important;
     bottom: -10px !important;
-    left: -256px !important;
+    left: -298px !important;
     height: 7px !important;
     z-index: 3 !important ;
     margin-left: 470px !important;
@@ -248,7 +247,7 @@ nav .fa-bars{
 }
    
 .image-section{
-  padding-left: 200px;
+  align-items: center;
   display: flex;
   flex-direction: column;
 
@@ -286,7 +285,6 @@ nav .fa-bars{
 .grid-container{
   display: grid !important;
   grid-template-columns: 0px !important;
- padding-right:439px !important;
 }
 
 
@@ -310,7 +308,7 @@ nav .fa-bars{
 
 
 .fifth{
-  width: 144%;
+  width: 100%;
   height: 1450px !important;
 
 }
@@ -322,7 +320,7 @@ nav .fa-bars{
 }
 
 .text-8 h1 {
-  font-size: 50px !important;
+  font-size: 38px !important;
   padding-top: 20px !important;
   font-weight: 600 !important;
 }
@@ -336,23 +334,23 @@ nav .fa-bars{
 
 
 .img-5 {
-  width: 293px !important;
-  height: 240px !important;
+  width: 260px !important;
+  height: 200px !important;
 }
 
 .container-50 {
-  padding-left: 72px !important;
-  padding-top: 22px !important;
+  padding-left: 0px !important;
+  padding-top: 53px !important;
 }
 
 .sixth-section{
     
-     width: 143%;
+     width: 100%;
      height: 900px !important;
 }
 .text-area h1{
-   padding-left: 12px !important;
-   font-size: 46px !important;
+  padding-left: 0px !important;
+  font-size: 37px !important;
 }
 
 .container-5 {
@@ -400,6 +398,10 @@ nav .fa-bars{
     
   }
 
+  .text-area {
+    padding-left:0px;
+}
+
   nav .fa-bars{
     font-size: 55px;
   }
@@ -421,15 +423,15 @@ nav .fa-bars{
   font-size: clamp(60px, 26vh, 300px) !important;
    font-size: 120px;
    margin-top: -231px;
-  padding-left: 550px !important;
+  padding-left: 0px !important;
   /* padding-bottom: 550px !important; */
    position: relative !important;
   
 }
 
 .btn-1 {
-  margin-left: 466px !important;
-  margin-top: 200px;
+  margin-left: 362px !important;
+  margin-top: 155px;
   padding: 20px !important;
   width: 30%;
   font-size: 23px;
@@ -439,7 +441,7 @@ nav .fa-bars{
 .seventh {
   background-color: #052656 !important;
   height: 554px !important;
-  width: 143%;
+  width: 100%;
   display: flex !important;
   flex-direction: column;
 }
@@ -455,7 +457,7 @@ nav .fa-bars{
 .sub-hero h1 {
   
   padding-left: 28px !important;
-  font-size: 74px !important;
+  font-size: 57px !important;
 }
 
 .images-9 {
@@ -467,17 +469,17 @@ nav .fa-bars{
   display: flex;
   flex-direction: column;
   padding-left: 110px;
-  width: 143%;
+  width: 100%;
   height: 1700px !important;
 }
 .last-logo{
 
-   padding-left: 146px !important;
+   padding-left: 92px !important;
 }
 
 .last-img {
-  width: 267px !important;
-  height: 269px !important;
+  width: 253px !important;
+  height: 246px !important;
 }
 
 .last-text-1 h2{
@@ -520,15 +522,15 @@ nav .fa-bars{
 }
 
 #fname, #cnt {
-  width: 534px;
-  font-size: 24px;
+  width: 461px;
+  font-size: 15px;
   padding: 20px !important;
 }
 
 .last-butn {
-  width: 534px !important;
-  padding: 26px !important;
-  font-size: 31px;
+  width: 463px !important;
+  padding: 10px !important;
+  font-size: 27px;
   color: black !important;
   background-color: rgb(247, 177, 46) !important;
 
@@ -929,7 +931,7 @@ aside{
 
 .image-4{
  object-fit:contain;
- padding: 10px;
+ padding: 5px;
 
 }
 
@@ -958,7 +960,7 @@ aside{
 
 .container-50{
   padding-left: 120px;
-  padding-top: 46px;
+  padding-top: 50px;
 }
 
 
