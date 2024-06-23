@@ -28,7 +28,7 @@
 
 
 .common-content{
-  width: 75%;
+  width: 100%;
   height: 300vh;
   background: #011128ed; 
   z-index: 1;
@@ -361,10 +361,6 @@ nav .fa-bars{
   flex-direction: column !important;
 }
 
-
-
-
-
 .container ul {
       margin-left: 200px;
       flex-direction: column;
@@ -424,7 +420,6 @@ nav .fa-bars{
    font-size: 120px;
    margin-top: -231px;
   padding-left: 0px !important;
-  /* padding-bottom: 550px !important; */
    position: relative !important;
   
 }
@@ -486,6 +481,11 @@ nav .fa-bars{
   font-size: 36px !important;
 
 }
+
+.img_1{
+  padding-left:0px !important;
+}
+
 
 .fa-facebook {
   width: 121px !important;
