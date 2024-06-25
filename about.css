@@ -17,7 +17,7 @@ nav .fa-bars{
   font-size: 1.6rem;
   color: orange;
   cursor: pointer;
-  display:;
+  display:none;
 }
 
 
@@ -31,6 +31,43 @@ nav .fa-bars{
   nav .fa-bars{
     font-size: 55px;
   }
+
+  .about-section{
+    width:100% !important;
+  }
+
+  .text-area-about{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .text-area-about h1{
+    text-align: center;
+  }
+
+  .text-area-about p {
+    padding-left: 11px;
+    width: 98% !important;
+    font-size: 20px !important;
+    
+}
+
+.img-1{
+  align-items: center !important;
+}
+
+.about-img {
+  width: 30% !important;
+  height: 100% !important;
+  padding-left:0px !important;
+  padding-bottom:0px !important;
+}
+
+
+
 
 
 
