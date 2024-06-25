@@ -34,48 +34,163 @@ nav .fa-bars{
 
   .about-section{
     width:100% !important;
+    height: 700px !important;
   }
 
   .text-area-about{
     width: 100% !important;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding-left: 0px !important;
+    padding-bottom: 150px !important;
     padding-top: 0px !important;
   }
 
   .text-area-about h1{
     text-align: center;
+    font-size: 40px !important;
   }
 
   .text-area-about p {
-    padding-left: 11px;
-    width: 98% !important;
+    padding-left: 24px;
+    width: 89% !important;
     font-size: 20px !important;
+    text-align: center;
     
 }
 
 .img-1{
   align-items: center !important;
+  display: flex;
+  justify-content: center;
 }
 
 .about-img {
-  width: 30% !important;
-  height: 100% !important;
+  width: 42% !important;
+  height: 91% !important;
   padding-left:0px !important;
   padding-bottom:0px !important;
 }
 
+.text-about-area-1{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-about-area-2{
+  padding-right: 0px !important;
+  padding-top: 300px !important;
+  text-align: center;
+}
 
 
+.text-about-area-2 span{
+  align-items: center;
+  padding-left: 0px !important;
+
+}
+
+.text-about-area-2 h5 {
+  font-size: 17px !important;
+  padding-top: 30px !important;
+  width: 580px !important ;
+}
+
+.text-about-area-2 hr {
+  width: 74% !important;
+  margin-left: 55px;
+}
 
 
+.text-about-area-2 p{
+  width: 480px !important;
+  padding-left: 40px;
+}
 
+.third-about-section{
+  height: 863px !important;
+  flex-direction: column-reverse;
 
+}
 
+.about-22-img {
+  width: 344px !important;
+  height: 290px !important;
+}
 
+.image-area {
+  justify-content: center;
+  padding-right: 0px !important;
+  display: flex;
+  padding-top: 120px !important;
+}
 
+.text-area-2{
+  padding-left: 0px !important;
+    padding-bottom: 140px !important;
+}
 
+.text-area-2 h1 {
+  font-size: 43px !important;
+  text-align: center;
+  
+}
+
+.text-area-2 hr {
+  width: 60% !important;
+  margin-left: 114px;
+ 
+}
+
+.text-area-2 p {
+  padding-left: 62px;
+  width: 509px !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+}
+
+.text-4 h1 {
+  text-align: center;
+  padding-left: 0px !important;
+  padding-top: 120px !important;
+}
+
+.text-4 hr {
+  margin-left: 167px !important;
+  width: 48% !important;
+}
+
+.text-4 p {
+  padding-left: 77px !important;
+  width: 85% !important;
+  font-weight: 500 !important;
+  font-size: 17px !important;
+}
+
+.text-area {
+  padding-left: 0px !important;
+}
+
+.text-area h1 {
+  padding-top: 80px !important;
+  font-size: 30px !important;
+}
+
+.sixth-section {
+  height: 850px !important;
+}
+
+.container-5 {
+  width: 86%;
+  padding-left:16px !important;
+  padding-top: 87px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-50{
+  gap: 20px !important;
+}
 
 
 
