@@ -11,97 +11,78 @@
 
 @media (max-width: 600px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.product-container{
+    background-size: cover !important;
+    background-attachment:scroll !important;
+}
+
+.product-text h3 {
+ padding-left:0px !important;
+ text-align: center;
+
+ }
+
+.product-text h1{
+    text-align: center;
+    padding-left: 0px !important;
+
+}
+
+.product-text p {
+   
+    width: 569px !important;
+    padding-left: 17px !important;
+   
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-container-product {
+    padding-left:0px !important;
+}
+
+.product-text-1 p {
+    width: 90% !important;
+    padding-left:39px !important;
+
+}
+
+.third-nav-section{
+    gap: 31px !important;
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-section {
+    padding-left: 0px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagine-img {
+    width: 587px !important;
+    height: 372px !important;
+}
+
+.google-playstore {
+    display: flex;
+    justify-content: center;
+    padding-left:0px !important;
+
+}
+
+.imagine-section {
+    padding-right: 0px !important;
+
+}
+
+.imagine-section h2 {
+    padding-left:0px !important;
+}
 
 
 /* .sixth-section */
