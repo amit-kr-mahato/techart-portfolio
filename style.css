@@ -100,12 +100,11 @@ nav .fa-bars{
 }
 @media (max-width: 600px) {
 
-  .body{
-    width: 0%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+.fa-paper-plane {
+    padding-left:0px !important;
+}
+
+ 
 
   .h3 {
     margin-right: 0px !important;

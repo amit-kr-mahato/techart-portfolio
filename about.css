@@ -24,6 +24,43 @@ nav .fa-bars{
 
 @media (max-width: 600px) {
 
+  .fa-paper-plane {
+    padding-left:0px !important;
+}
+
+
+
+  .common-content ul {
+    text-align: center;
+    padding-left:0px !important;
+    
+}
+
+
+  .container ul {
+    margin-left: 200px;
+    flex-direction: column;
+    width: 100%;
+    background: #333;
+    display: none;
+}
+
+nav .fa-bars {
+  padding-right: 0px !important;
+ 
+}
+
+.h3 {
+  margin-right: 0px !important;
+
+}
+
+  .container{
+    width: 99%;
+    padding-bottom: 100px;
+
+  }
+
   nav .fa-bars{
     display: block;
   }
@@ -31,6 +68,18 @@ nav .fa-bars{
   nav .fa-bars{
     font-size: 55px;
   }
+
+
+  nav .fa-bars{
+    display: block;
+  }
+
+  nav .fa-bars{
+    font-size: 55px;
+  }
+
+
+  
 
   .about-section{
     width:100% !important;
@@ -246,21 +295,9 @@ nav .fa-bars{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
+/* -------------------------------------- end responsive  for small screen------------------------------------------------------------------*/
 
 
 
@@ -283,7 +320,7 @@ nav .fa-bars{
 
 
 .common-content{
-  width: 100%;
+  width: 41%;
   height: 300vh;
   background: #011128ed; 
   z-index: 1;
