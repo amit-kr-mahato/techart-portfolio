@@ -64,6 +64,7 @@
 }
 
 .grid{
+    height: 351px !important;
     width: 203px !important;
 }
 
@@ -74,6 +75,11 @@
     padding-left:0px !important;
     grid-template-columns: 0px 0px !important;
     justify-content: space-around !important;
+}
+
+.font-aswome {
+    gap:0px !important;
+    
 }
 
 .grid img {
