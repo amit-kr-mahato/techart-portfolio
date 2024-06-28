@@ -10,7 +10,93 @@
     
 }
 
+nav .fa-bars{
+    float: right;
+    padding-top: 58px;
+    padding-right: 120px;
+    font-size: 1.6rem;
+    color: orange !important;
+    cursor: pointer;
+    display:none;
+  }
+  
+
+.common-content ul{
+    padding-left: 207px;
+    padding-top: 0px;
+    
+  }
+  
+  .common-content ul li{
+  
+    padding: 15px;
+    font-size: 31px;
+    font-weight: 800;
+    color: rgb(249, 241, 241);
+  }
+  
+  
+  
+  .common-content{
+    width: 100%;
+    height: 300vh;
+    background: #011128ed; 
+    z-index: 1;
+    position: fixed;
+  
+     
+    
+  }
+  /* -----------------------------------for mobile responsive--------------------------------------------------------------------------- */
+
 @media (max-width: 600px) {
+
+    .fa-paper-plane {
+        padding-left:0px !important;
+    }
+    
+    
+    
+      .common-content ul {
+        text-align: center;
+        padding-left:0px !important;
+        
+    }
+    
+    
+      .container ul {
+        margin-left: 200px;
+        flex-direction: column;
+        width: 100%;
+        background: #333;
+        display: none;
+    }
+    
+    nav .fa-bars {
+        
+      padding-right: 0px !important;
+     
+    }
+    
+    .h3 {
+      margin-right: 0px !important;
+    
+    }
+    
+      .container{
+        width: 99%;
+        padding-bottom: 100px;
+    
+      }
+    
+    
+      nav .fa-bars{
+        font-size: 55px !important;
+      }
+    
+      nav .fa-bars{
+        display: block !important;
+      }
 
 .text-contact {
     padding-top: 110px !important;
@@ -114,104 +200,171 @@ padding-left: 40px !important;
 }
 
 
+/* -------------------------------------- responsive  for tablets screen------------------------------------------------------------------*/
 
+@media (min-width: 601px) and (max-width: 768px) {
 
+    .common-content ul {
+       text-align: center;
+       padding-left:0px !important;
+       padding-top: 0px;
+   }
+   
+    #fas-1{
+       font-size: 58px !important;
+       padding-top: 44px !important;
+       padding-left: 697px !important;
+       
+   }
 
+   .fa-paper-plane {
+    padding-left:0px !important;
+}
 
 
 
+  .common-content ul {
+    text-align: center;
+    padding-left:0px !important;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+
+  .container ul {
+    margin-left: 200px;
+    flex-direction: column;
+    width: 100%;
+    background: #333;
+    display: none;
+}
+
+ nav .fa-bars {
+    
+  padding-right: 0px !important;
+ 
+}
+
+.h3 {
+  margin-right: 0px !important;
+
+}
+
+  .container{
+    width: 99%;
+    padding-bottom: 100px;
+
+  }
+
+
+  nav .fa-bars{
+    font-size: 55px !important;
+  }
+
+  nav .fa-bars{
+    display: block !important;
+  }
+
+.text-contact {
+padding-top: 110px !important;
+}
+
+
+.text-contact h3 {
+font-weight: 400;
+ text-align: end !important;
+
+}
+
+.text-contact h1 {
+ font-size: 45px !important;
+font-weight: 300 !important;
+
+}
+
+.second-contact-cointainer {
+padding-left: 80px;
+width: 501px ;
+display: flex;
+flex-direction: column !important;
+gap: 30px !important;
+}
+
+.second-part-contact {
+height: 1181px !important;
+margin-top: 80px !important;
+}
+
+.d-block h4{
+font-weight: 300;
+
+}
+
+.d-block span{
+font-weight: 200;
+}
+
+
+.ifrm-1{
+width: 450px !important;
+
+}
+
+.how_can_we_help {
+width: 456px !important;
+}
+  
+.seventh{
+display: flex;
+flex-direction: column;
+height: 380px !important;
+}
+  
+#helmet{
+font-weight: 500;
+padding-left: 40px !important;
+
+}
+  
+.sub-hero h1 {
+padding-left:0px !important;
+font-size: 35px !important;
+text-align: center;
+}
+
+.logo-section {
+padding-top: 45px !important;
+padding-right: 0px !important;
+display: flex !important;
+justify-content:center !important;
+margin-bottom: 120px !important;
+}
+
+.images-9 {
+width: 157px !important;
+padding: 9px !important;
+height: 158px !important;
+}
+
+.last-section{
+align-items: center;
+display: flex !important;
+height: 1300px !important;
+flex-direction: column;
+}
+
+#fname, #cnt {
+width: 278px ;
+padding: 10px !important;
+}
+
+.last-butn {
+width: 280px !important;
+
+}
+
+
+
+}
 
 
 

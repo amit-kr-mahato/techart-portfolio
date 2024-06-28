@@ -7,9 +7,95 @@
     font-family: "Roboto", sans-serif;
     
 }
+nav .fa-bars{
+    float: right;
+    padding-top: 58px;
+    padding-right: 120px;
+    font-size: 1.6rem;
+    color: orange !important;
+    cursor: pointer;
+    display:none;
+  }
+  
+
+.common-content ul{
+    padding-left: 207px;
+    padding-top: 0px;
+    
+  }
+  
+  .common-content ul li{
+  
+    padding: 15px;
+    font-size: 31px;
+    font-weight: 800;
+    color: rgb(249, 241, 241);
+  }
+  
+  
+  
+  .common-content{
+    width: 100%;
+    height: 300vh;
+    background: #011128ed; 
+    z-index: 1;
+    position: fixed;
+  
+     
+    
+  }
+
+   /* -----------------------------------for mobile responsive--------------------------------------------------------------------------- */
 
 
 @media (max-width: 600px) {
+
+    .fa-paper-plane {
+        padding-left:0px !important;
+    }
+    
+    
+    
+      .common-content ul {
+        text-align: center;
+        padding-left:0px !important;
+        
+    }
+    
+    
+      .container ul {
+        margin-left: 200px;
+        flex-direction: column;
+        width: 100%;
+        background: #333;
+        display: none;
+    }
+    
+    nav .fa-bars {
+        
+      padding-right: 0px !important;
+     
+    }
+    
+    .h3 {
+      margin-right: 0px !important;
+    
+    }
+    
+      .container{
+        width: 99%;
+        padding-bottom: 100px;
+    
+      }
+    
+    
+      nav .fa-bars{
+        font-size: 55px !important;
+      }
+    
+      nav .fa-bars{
+        display: block !important;
+      }
 
 .product-container{
     background-size: cover !important;
@@ -165,6 +251,221 @@
 
 }
 
+/* -------------------------------------- responsive  for tablets screen------------------------------------------------------------------*/
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+  .common-content ul {
+     text-align: center;
+     padding-left:0px !important;
+     padding-top: 0px;
+ }
+ 
+  #fas-1{
+     font-size: 58px !important;
+     padding-top: 44px !important;
+     padding-left: 697px !important;
+     
+ }
+ .fa-paper-plane {
+  padding-left:0px !important;
+}
+
+
+
+.common-content ul {
+  text-align: center;
+  padding-left:0px !important;
+  
+}
+
+
+.container ul {
+  margin-left: 200px;
+  flex-direction: column;
+  width: 100%;
+  background: #333;
+  display: none;
+}
+
+nav .fa-bars {
+  
+padding-right: 0px !important;
+
+}
+
+.h3 {
+margin-right: 0px !important;
+
+}
+
+.container{
+  width: 99%;
+  padding-bottom: 100px;
+
+}
+
+
+nav .fa-bars{
+  font-size: 55px !important;
+}
+
+nav .fa-bars{
+  display: block !important;
+}
+
+.product-container{
+background-size: cover !important;
+background-attachment:scroll !important;
+}
+
+.product-text h3 {
+padding-left:0px !important;
+text-align: center;
+
+}
+
+.product-text h1{
+text-align: center;
+padding-left: 0px !important;
+
+}
+
+.product-text p {
+
+width: 569px !important;
+padding-left: 17px !important;
+
+}
+
+.row{
+display: flex;
+flex-direction: column;
+}
+
+.second-container-product {
+padding-left:0px !important;
+}
+
+.product-text-1 p {
+width: 90% !important;
+padding-left:39px !important;
+
+}
+
+.third-nav-section{
+gap: 31px !important;
+padding: 0px !important;
+display: flex;
+flex-direction: column;
+}
+
+.img-section {
+padding-left: 0px !important;
+display: flex;
+flex-direction: column;
+}
+
+.imagine-img {
+width: 587px !important;
+height: 372px !important;
+}
+
+.google-playstore {
+display: flex;
+justify-content: center;
+padding-left:0px !important;
+
+}
+
+.imagine-section {
+padding-right: 0px !important;
+
+}
+
+.imagine-section h2 {
+padding-left:0px !important;
+}
+
+
+/* .sixth-section */
+
+.sixth-section {
+height: 650px !important;
+}
+
+.text-area {
+padding-left:0px !important;
+}
+
+.container-5 {
+width: 86%;
+padding-left:16px !important;
+padding-top: 37px !important;
+display: flex;
+flex-direction: column;
+}
+
+.container-50{
+padding-top: 12px;
+}
+
+.btn-1 {
+margin-left: 334px !important;
+width: 120px;
+padding: 14px !important;
+}
+
+.seventh{
+display: flex;
+flex-direction: column;
+height: 380px !important;
+}
+
+#helmet{
+font-weight: 500;
+padding-left: 40px !important;
+}
+
+.sub-hero h1 {
+padding-left:0px !important;
+font-size: 35px !important;
+text-align: center;
+}
+
+.logo-section {
+padding-top: 45px !important;
+padding-right: 0px !important;
+display: flex !important;
+justify-content:center !important;
+margin-bottom: 120px !important;
+}
+
+.images-9 {
+width: 157px !important;
+padding: 9px !important;
+height: 158px !important;
+}
+
+.last-section{
+align-items: center;
+display: flex !important;
+height: 1300px !important;
+flex-direction: column;
+}
+
+#fname, #cnt {
+width: 278px ;
+padding: 10px !important;
+}
+
+.last-butn {
+width: 280px !important;
+
+}
+
+
+}
 
 /* end of responsive code */
 

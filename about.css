@@ -20,7 +20,7 @@ nav .fa-bars{
   display:none;
 }
 
-
+ /* -----------------------------------for mobile responsive--------------------------------------------------------------------------- */
 
 @media (max-width: 600px) {
 
@@ -69,13 +69,8 @@ nav .fa-bars {
     font-size: 55px;
   }
 
-
   nav .fa-bars{
     display: block;
-  }
-
-  nav .fa-bars{
-    font-size: 55px;
   }
 
 
@@ -297,8 +292,292 @@ nav .fa-bars {
 
 }
 
-/* -------------------------------------- end responsive  for small screen------------------------------------------------------------------*/
+/* -------------------------------------- responsive  for tablets screen------------------------------------------------------------------*/
 
+@media (min-width: 601px) and (max-width: 768px) {
+
+  .common-content ul {
+     text-align: center;
+     padding-left:0px !important;
+     padding-top: 0px;
+ }
+ 
+  #fas-1{
+     font-size: 58px !important;
+     padding-top: 44px !important;
+     padding-left: 697px !important;
+     
+ }
+
+ .fa-paper-plane {
+  padding-left:0px !important;
+}
+
+
+
+/* .common-content ul {
+  text-align: center;
+  padding-left:0px !important;
+  
+} */
+
+
+.container ul {
+  margin-left: 200px;
+  flex-direction: column;
+  width: 100%;
+  background: #333;
+  display: none;
+}
+
+nav .fa-bars {
+padding-right: 0px !important;
+
+}
+
+.h3 {
+margin-right: 0px !important;
+
+}
+
+.container{
+  width: 99%;
+  padding-bottom: 100px;
+
+}
+
+nav .fa-bars{
+  display: block;
+}
+
+nav .fa-bars{
+  font-size: 55px;
+}
+
+nav .fa-bars{
+  display: block;
+}
+
+
+
+
+.about-section{
+  width:100% !important;
+  height: 700px !important;
+}
+
+.text-area-about{
+  width: 100% !important;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 0px !important;
+  padding-bottom: 150px !important;
+  padding-top: 0px !important;
+}
+
+.text-area-about h1{
+  text-align: center;
+  font-size: 40px !important;
+}
+
+.text-area-about p {
+  padding-left: 24px;
+  width: 89% !important;
+  font-size: 20px !important;
+  text-align: center;
+  
+}
+
+.img-1{
+align-items: center !important;
+display: flex;
+justify-content: center;
+}
+
+.about-img {
+width: 42% !important;
+height: 91% !important;
+padding-left:0px !important;
+padding-bottom:0px !important;
+}
+
+.text-about-area-1{
+display: flex;
+flex-direction: column;
+}
+
+.text-about-area-2{
+padding-right: 0px !important;
+padding-top: 300px !important;
+text-align: center;
+}
+
+
+.text-about-area-2 span{
+align-items: center;
+padding-left: 0px !important;
+
+}
+
+.text-about-area-2 h5 {
+font-size: 17px !important;
+padding-top: 30px !important;
+width: 580px !important ;
+}
+
+.text-about-area-2 hr {
+width: 74% !important;
+margin-left: 55px;
+}
+
+
+.text-about-area-2 p{
+width: 480px !important;
+padding-left: 40px;
+}
+
+.third-about-section{
+height: 863px !important;
+flex-direction: column-reverse;
+
+}
+
+.about-22-img {
+width: 344px !important;
+height: 290px !important;
+}
+
+.image-area {
+justify-content: center;
+padding-right: 0px !important;
+display: flex;
+padding-top: 120px !important;
+}
+
+.text-area-2{
+padding-left: 0px !important;
+  padding-bottom: 140px !important;
+}
+
+.text-area-2 h1 {
+font-size: 43px !important;
+text-align: center;
+
+}
+
+.text-area-2 hr {
+width: 60% !important;
+margin-left: 114px;
+
+}
+
+.text-area-2 p {
+padding-left: 62px;
+width: 509px !important;
+font-size: 17px !important;
+font-weight: 500 !important;
+}
+
+.text-4 h1 {
+text-align: center;
+padding-left: 0px !important;
+padding-top: 120px !important;
+}
+
+.text-4 hr {
+margin-left: 167px !important;
+width: 48% !important;
+}
+
+.text-4 p {
+padding-left: 77px !important;
+width: 85% !important;
+font-weight: 500 !important;
+font-size: 17px !important;
+}
+
+.text-area {
+padding-left: 0px !important;
+}
+
+.text-area h1 {
+padding-top: 80px !important;
+font-size: 30px !important;
+}
+
+.sixth-section {
+height: 650px !important;
+}
+
+.container-5 {
+width: 86%;
+padding-left:16px !important;
+padding-top: 37px !important;
+display: flex;
+flex-direction: column;
+}
+
+.container-50{
+padding-top: 28px;
+}
+
+.btn-1 {
+margin-left: 334px !important;
+width: 120px;
+padding: 14px !important;
+}
+
+.seventh{
+display: flex;
+flex-direction: column;
+height: 380px !important;
+}
+
+#helmet{
+font-weight: 500;
+padding-left: 40px !important;
+}
+
+.sub-hero h1 {
+padding-left:0px !important;
+font-size: 35px !important;
+text-align: center;
+}
+
+.logo-section {
+padding-top: 45px !important;
+padding-right: 0px !important;
+display: flex !important;
+justify-content:center !important;
+margin-bottom: 120px !important;
+}
+
+.images-9 {
+width: 157px !important;
+padding: 9px !important;
+height: 158px !important;
+}
+
+.last-section{
+align-items: center;
+display: flex !important;
+height: 1300px !important;
+flex-direction: column;
+}
+
+#fname, #cnt {
+width: 278px ;
+padding: 10px !important;
+}
+
+.last-butn {
+width: 280px !important;
+}
+
+
+}
+
+/* -----------------------------------------------end of tablet screen------------------------------------------------------------------------ */
 
 
 
@@ -320,7 +599,7 @@ nav .fa-bars {
 
 
 .common-content{
-  width: 41%;
+  width: 100%;
   height: 300vh;
   background: #011128ed; 
   z-index: 1;
