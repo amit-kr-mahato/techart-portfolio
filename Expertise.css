@@ -363,12 +363,6 @@ nav .fa-bars{
     display: none;
 }
 
-nav .fa-bars {
-    
-  padding-right: 0px !important;
- 
-}
-
 .h3 {
   margin-right: 0px !important;
 
@@ -382,6 +376,7 @@ nav .fa-bars {
 
 
   nav .fa-bars{
+    padding-right: 63px !important;
     font-size: 55px !important;
   }
 

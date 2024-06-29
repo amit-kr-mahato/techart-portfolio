@@ -103,7 +103,7 @@
           information.
         </p>
         <br /><br />
-        <button class="btn-0">
+        <button class="btn-0" onclick="display()">
           <i class="far fa-arrow-alt-circle-right"></i>GET IN TOUCH
         </button>
       </div>
@@ -448,6 +448,10 @@
       function hideNavBar() {
         let navBar = document.getElementById("responsive-nav");
         navBar.style.display = "none";
+      }
+
+      function display() {
+        location.replace("contact.html");
       }
     </script>
   </body>

@@ -5,18 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="contact.css" />
-    <link rel="stylesheet" href="nav-footer.css">
-   
+    <link rel="stylesheet" href="nav-footer.css" />
+
     <script
       src="https://kit.fontawesome.com/7a4b62b0a4.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-
     <div class="common-content" id="responsive-nav">
-      <i style='font-size:53px; padding-top: 55px;padding-left: 503px; background: #041938ed; color: orange; width: 100%;' class='fas' id="fas-1" onclick="hideNavBar()">&#xf061;</i>
-      <ul >
+      <i
+        style="
+          font-size: 53px;
+          padding-top: 55px;
+          padding-left: 503px;
+          background: #041938ed;
+          color: orange;
+          width: 100%;
+        "
+        class="fas"
+        id="fas-1"
+        onclick="hideNavBar()"
+        >&#xf061;</i
+      >
+      <ul>
         <a href="index.html">
           <li>HOME</li>
         </a>
@@ -39,16 +51,12 @@
           <li>CONTACT</li>
         </a>
       </ul>
-      <div class="fas fa-bars" onclick="showNavBar()"></div> 
+      <div class="fas fa-bars" onclick="showNavBar()"></div>
     </div>
 
     <nav class="container">
       <div class="logo">
-        <img
-          class="img"
-          src="images/logo1.png"
-          alt="techart"
-        />
+        <img class="img" src="images/logo1.png" alt="techart" />
         <h3>
           We <span>Create</span>We <span>Serve</span>We <span>Solve</span>
         </h3>
@@ -76,6 +84,7 @@
           <li>CONTACT</li>
         </a>
       </ul>
+      <div class="fas fa-bars" onclick="showNavBar()"></div>
     </nav>
     <!-- </header_end> -->
     <!-- first-section -->
@@ -93,22 +102,24 @@
       <div class="second-contact-cointainer">
         <div class="contact-detail">
           <h1>CONTACT DETAIL</h1>
-          
-          <p>Contact our Support and Sales team</p><br>
+
+          <p>Contact our Support and Sales team</p>
+          <br />
           <div class="contact">
             <div class="INFO">
-              <i class="fas fa-mobile-alt"></i><br>
+              <i class="fas fa-mobile-alt"></i><br />
               <div class="d-block">
                 <h4>PHONE: <br /><span> +977-1-5970430</span></h4>
               </div>
             </div>
             <div class="INFO">
-              <i class="far fa-envelope"></i><br>
+              <i class="far fa-envelope"></i><br />
               <div class="d-block">
                 <h4>Email <br /><span> contact@techarttrekkies.com </span></h4>
               </div>
             </div>
-            <div class="INFO"><br>
+            <div class="INFO">
+              <br />
               <i class="fas fa-map-marker-alt"></i>
               <div class="d-block">
                 <h4>
@@ -121,152 +132,155 @@
               </div>
             </div>
           </div>
-        <!-- </div> --> <br>
-        <iframe class="ifrm-1"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.7479677363251!2d85.31880544536914!3d27.71829021526555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb191b58c2c4bb%3A0x72a015f9a5b5eeb5!2sMetro%20Park!5e0!3m2!1sen!2snp!4v1632308334424!5m2!1sen!2snp"
-          width="170%"
-          height="250"
-          style="border: 0"
-          allowfullscreen
-          loading="lazy"
-        ></iframe>
+          <!-- </div> -->
+          <br />
+          <iframe
+            class="ifrm-1"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.7479677363251!2d85.31880544536914!3d27.71829021526555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb191b58c2c4bb%3A0x72a015f9a5b5eeb5!2sMetro%20Park!5e0!3m2!1sen!2snp!4v1632308334424!5m2!1sen!2snp"
+            width="170%"
+            height="250"
+            style="border: 0"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="how_can_we_help">
+          <h1>HOW CAN WE HELP?</h1>
+          <p>
+            We're here to answer any question you might have. We look forward to
+            hearing from you.
+          </p>
+          <br /><br />
+          <!-- </div> -->
+          <form class="contact" id="form">
+            <div class="row-g">
+              <div class="form-fill">
+                <div class="colspan">
+                  <input
+                    type="text"
+                    id="Name"
+                    class="form-control"
+                    placeholder="Name"
+                    name="Name"
+                  />
+                </div>
+                <div class="colspan">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Email"
+                    placeholder="Email"
+                    name="Email"
+                  />
+                </div>
+              </div>
+
+              <div class="colspn-1">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Subject"
+                  placeholder="Subject"
+                  name="Subject"
+                />
+              </div>
+              <div class="colspn-1">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  id="comment"
+                  placeholder="message"
+                  name="message"
+                ></textarea>
+              </div>
+            </div>
+          </form>
+          <button class="btn-1-contact">Send Me!</button>
+        </div>
       </div>
-      <div class="how_can_we_help">
-        <h1>HOW CAN WE HELP?</h1>
+    </div>
+
+    <!-- sventh-section -->
+    <div class="seventh">
+      <div class="sub-hero">
+        <h3 id="helmet">WE ARE NOW</h3>
+        <h1>ISO 9001 : 2015 QMS CERTIFIED</h1>
+      </div>
+      <div class="logo-section">
+        <img class="images-9" src="images/iso.png" alt="" />
+        <div class="vertial-line"></div>
+        <img class="images-9" src="images/download (1).png" alt="" />
+      </div>
+    </div>
+    <!-- last-section -->
+
+    <div class="last-section">
+      <div class="last-logo">
+        <img class="last-img" src="images/logo (1).png" alt="" />
+      </div>
+      <div class="last-text-1">
+        <h2>HEAD OFFICE</h2>
+        <br />
         <p>
-          We're here to answer any question you might have. We look forward to
-          hearing from you.
-        </p> <br><br>
-      <!-- </div> -->
-      <form class="contact">
-      <div class="row-g">
-        <div class="form-fill">
-        <div class="colspan">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Name"
-            name="Name"
-          />
-        </div>
-        <div class="colspan">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Email"
-            name="Email"
-          />
-        </div>
+          2nd floor,Metro Park, <br />
+          Rajdurbar Uttar Dhoka Mark <br />
+          Kathmandu,Nepal <br />
+          <br />
+          +977-1-5970430 <br />
+          <br />
+          Contact@techarttrekkies.com
+        </p>
+        <br />
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
       </div>
 
-
-        <div class="colspn-1">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Subject"
-            name="Subject"
-          />
-        </div>
-        <div class="colspn-1">
-          <textarea
-            class="form-control"
-            rows="5"
-            id="comment"
-            placeholder="message"
-            name="message"
-          ></textarea>
-        </div>
+      <div class="last-text-2">
+        <h2>QUICK LINKS</h2>
+        <br />
+        <ul>
+          <li>Home</li>
+          <br />
+          <li>About techart</li>
+          <br />
+          <li>Expertise</li>
+          <br />
+          <li>Get in touch</li>
+          <br />
+          <li>Blog</li>
+        </ul>
       </div>
-      <button class="btn-1-contact">Send Me!</button>
+      <div class="last-text-3">
+        <h2>REQUEST A CALL BACK</h2>
+        <br />
+
+        <label for="fname"></label><br />
+        <input
+          type="text"
+          id="fname"
+          name="Full Name*"
+          placeholder="Full Name*"
+        /><br />
+        <label for="cnt"></label><br />
+        <input
+          type="text"
+          id="cnt"
+          name="Contact number/Email*"
+          placeholder="Contact number/Email*"
+        /><br />
+        <button class="last-butn">Get Back To Me</button><br />
       </div>
     </div>
-    </div>
-
-
-
-  <!-- sventh-section -->
-  <div class="seventh">
-    <div class="sub-hero">
-      <h3 id="helmet">WE ARE NOW</h3>
-      <h1>ISO 9001 : 2015 QMS CERTIFIED</h1>
-    </div>
-    <div class="logo-section">
-      <img class="images-9" src="images/iso.png" alt="" />
-      <div class="vertial-line"></div>
-      <img class="images-9" src="images/download (1).png" alt="" />
-    </div>
-  </div>
-  <!-- last-section -->
-
-  <div class="last-section">
-    <div class="last-logo">
-      <img class="last-img" src="images/logo (1).png" alt="" />
-    </div>
-    <div class="last-text-1">
-      <h2>HEAD OFFICE</h2>
-      <br />
-      <p>
-        2nd floor,Metro Park, <br />
-        Rajdurbar Uttar Dhoka Mark <br />
-        Kathmandu,Nepal <br />
-        <br />
-        +977-1-5970430 <br />
-        <br />
-        Contact@techarttrekkies.com
-      </p>
-      <br />
-      <i class="fa fa-facebook"></i>
-      <i class="fa fa-instagram"></i>
-    </div>
-
-    <div class="last-text-2">
-      <h2>QUICK LINKS</h2>
-      <br />
-      <ul>
-        <li>Home</li>
-        <br />
-        <li>About techart</li>
-        <br />
-        <li>Expertise</li>
-        <br />
-        <li>Get in touch</li>
-        <br />
-        <li>Blog</li>
-      </ul>
-    </div>
-    <div class="last-text-3">
-      <h2>REQUEST A CALL BACK</h2>
-      <br />
-      <label for="fname"></label><br />
-      <input
-        type="text"
-        id="fname"
-        name="Full Name*"
-        placeholder="Full Name*"
-      /><br />
-      <label for="cnt"></label><br />
-      <input
-        type="text"
-        id="cnt"
-        name="Contact number/Email*"
-        placeholder="Contact number/Email*"
-      /><br />
-      <button class="last-butn">Get Back To Me</button><br />
-    </div>
-  </div>
-
-  <script>
-    function showNavBar(){
-      let navBar = document.getElementById("responsive-nav");
-      navBar.style.display = 'block';
-
-    }
-    function hideNavBar(){
-      let navBar = document.getElementById("responsive-nav");
-      navBar.style.display = 'none';
-
-    }
-  </script>
+    <script src="script.js"></script>
+    <script>
+      function showNavBar() {
+        let navBar = document.getElementById("responsive-nav");
+        navBar.style.display = "block";
+      }
+      function hideNavBar() {
+        let navBar = document.getElementById("responsive-nav");
+        navBar.style.display = "none";
+      }
+    </script>
   </body>
 </html>
