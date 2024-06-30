@@ -569,7 +569,11 @@ nav .fa-bars{
   }
 
 
-
+  .error {
+    color: red;
+    font-size: 12px;
+    display: none;
+  }
 
 
 

@@ -12,6 +12,14 @@
       src="https://kit.fontawesome.com/7a4b62b0a4.js"
       crossorigin="anonymous"
     ></script>
+    <!-- <script src="././script.js"></script> -->
+    <style>
+      .error {
+        color: red;
+        font-size: 15px;
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <div class="common-content" id="responsive-nav">
@@ -153,7 +161,7 @@
           </p>
           <br /><br />
           <!-- </div> -->
-          <form class="contact">
+          <form class="contact" id="contactForm">
             <div class="row-g">
               <div class="form-fill">
                 <div class="colspan">
@@ -164,6 +172,7 @@
                     placeholder="Name"
                     name="Name"
                   />
+                  <small class="error" id="nameError">Name is required</small>
                 </div>
                 <div class="colspan">
                   <input
@@ -173,6 +182,7 @@
                     placeholder="Email"
                     name="Email"
                   />
+                  <small class="error" id="emailError">Email is required</small>
                 </div>
               </div>
 
@@ -184,6 +194,9 @@
                   placeholder="Subject"
                   name="Subject"
                 />
+                <small class="error" id="subjectError"
+                  >Subject is required</small
+                >
               </div>
               <div class="colspn-1">
                 <textarea
@@ -193,11 +206,14 @@
                   placeholder="message"
                   name="message"
                 ></textarea>
+                <small class="error" id="messageError"
+                  >Message is required</small
+                >
               </div>
             </div>
             <!-- <button type="Submit" class="btn-1-contact">Send Me!</button> -->
           </form>
-          <button type="Submit" class="btn-1-contact">Send Me!</button>
+          <button id="submit" class="btn-1-contact">Send Me!</button>
         </div>
       </div>
     </div>
@@ -273,7 +289,6 @@
         <button class="last-butn">Get Back To Me</button><br />
       </div>
     </div>
-    <script src="script.js"></script>
     <script>
       function showNavBar() {
         let navBar = document.getElementById("responsive-nav");
@@ -283,6 +298,68 @@
         let navBar = document.getElementById("responsive-nav");
         navBar.style.display = "none";
       }
+    </script>
+    <script>
+      document
+        .getElementById("submit")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          let isValid = true;
+
+          // Clear previous error messages
+          document.getElementById("nameError").style.display = "none";
+          document.getElementById("emailError").style.display = "none";
+          document.getElementById("subjectError").style.display = "none";
+          document.getElementById("messageError").style.display = "none";
+
+          // Validate Name
+          const name = document.getElementById("Name").value;
+
+          if (!name) {
+            document.getElementById("nameError").style.display = "block";
+            isValid = false;
+          }
+
+          // Validate Email
+          const email = document.getElementById("Email").value;
+
+          const emailPattern =
+            /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+          if (!email) {
+            document.getElementById("emailError").innerText =
+              "Email is required";
+            document.getElementById("emailError").style.display = "block";
+            isValid = false;
+          } else if (!emailPattern.test(email)) {
+            document.getElementById("emailError").innerText =
+              "Invalid email format";
+            document.getElementById("emailError").style.display = "block";
+            isValid = false;
+          }
+
+          // Validate Subject
+          const subject = document.getElementById("Subject").value;
+
+          if (!subject) {
+            document.getElementById("subjectError").style.display = "block";
+            isValid = false;
+          }
+
+          // Validate Message
+          const message = document.getElementById("comment").value;
+
+          if (!message) {
+            document.getElementById("messageError").style.display = "block";
+            isValid = false;
+          }
+
+          // If the form is valid, submit it
+          if (isValid) {
+            document.getElementById("contactForm").submit();
+          } else {
+            console.log("Form is invalid. Not submitting the form.");
+          }
+        });
     </script>
   </body>
 </html>
