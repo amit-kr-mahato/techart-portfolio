@@ -161,7 +161,18 @@
           </p>
           <br /><br />
           <!-- </div> -->
-          <form class="contact" id="contactForm">
+          <!-- //fill the form then data can be save the in gmail -->
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact"
+            id="contactForm"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="e9597be6-f7ae-4a0c-a5be-7892d6586779"
+            />
             <div class="row-g">
               <div class="form-fill">
                 <div class="colspan">
@@ -211,9 +222,12 @@
                 >
               </div>
             </div>
-            <!-- <button type="Submit" class="btn-1-contact">Send Me!</button> -->
           </form>
-          <button id="submit" class="btn-1-contact">Send Me!</button>
+          <!-- <button type="Submit" class="btn-1-contact">Send Me!</button> -->
+
+          <button type="submit" id="submit" class="btn-1-contact">
+            Send Me!
+          </button>
         </div>
       </div>
     </div>
@@ -272,21 +286,28 @@
         <h2>REQUEST A CALL BACK</h2>
         <br />
 
-        <label for="fname"></label><br />
-        <input
-          type="text"
-          id="fname"
-          name="Full Name*"
-          placeholder="Full Name*"
-        /><br />
-        <label for="cnt"></label><br />
-        <input
-          type="text"
-          id="cnt"
-          name="Contact number/Email*"
-          placeholder="Contact number/Email*"
-        /><br />
-        <button class="last-butn">Get Back To Me</button><br />
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="e9597be6-f7ae-4a0c-a5be-7892d6586779"
+          />
+          <label for="fname"></label><br />
+          <input
+            type="text"
+            id="fname"
+            name="Full Name*"
+            placeholder="Full Name*"
+          /><br />
+          <label for="cnt"></label><br />
+          <input
+            type="text"
+            id="cnt"
+            name="Contact number/Email*"
+            placeholder="Contact number/Email*"
+          /><br />
+          <button class="last-butn">Get Back To Me</button><br />
+        </form>
       </div>
     </div>
     <script>

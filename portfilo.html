@@ -704,21 +704,28 @@
       <div class="last-text-3">
         <h2>REQUEST A CALL BACK</h2>
         <br />
-        <label for="fname"></label><br />
-        <input
-          type="text"
-          id="fname"
-          name="Full Name*"
-          placeholder="Full Name*"
-        /><br />
-        <label for="cnt"></label><br />
-        <input
-          type="text"
-          id="cnt"
-          name="Contact number/Email*"
-          placeholder="Contact number/Email*"
-        /><br />
-        <button class="last-butn">Get Back To Me</button><br />
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="e9597be6-f7ae-4a0c-a5be-7892d6586779"
+          />
+          <label for="fname"></label><br />
+          <input
+            type="text"
+            id="fname"
+            name="Full Name*"
+            placeholder="Full Name*"
+          /><br />
+          <label for="cnt"></label><br />
+          <input
+            type="text"
+            id="cnt"
+            name="Contact number/Email*"
+            placeholder="Contact number/Email*"
+          /><br />
+          <button class="last-butn">Get Back To Me</button><br />
+        </form>
       </div>
     </div>
 
